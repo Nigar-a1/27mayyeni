@@ -16,9 +16,47 @@ img{
 }
 .qutu{
     flex: 1;
-    margin: 15px;
+    margin: 10px;
+    margin-top: 30px;
 }
-.sozler{
+.ic{
     display: flex;
     justify-content: space-between;
 }
+.qutu:hover .aciq{
+    display: none;
+}
+.qutu:hover .qapali{
+    display: block;
+}
+.qapali{
+    display: none;
+}.ic p{
+    color: #c6c1bf;
+}
+.col{
+    margin-top: 15px;
+}
+.col:hover .bir{
+    display: none;
+}
+.col:hover .iki{
+    display: block;
+    width: 80px;
+    color: #dc9814;
+}
+.iki{
+    display: none;
+   border-bottom: 1.5px groove #f5f5f0;
+}
+
+.ic:hover .qara{
+    display: block;
+}
+.ic:hover .ag{
+    display: none;
+}
+.qara{
+    display: none;
+}
+
